@@ -22,14 +22,14 @@
         <TextBlock x:Name="tblHeadline" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" FontSize="14">Member</TextBlock>
         <Label Grid.Row="1" Grid.Column="0">Vorname:</Label>
         <TextBox VerticalAlignment="Center" Grid.Row="1" Padding="6" Grid.Column="1" Text="{Binding Path=Firstname}"/>
-        <Label Grid.Row="2" Grid.Column="0">Nachname</Label>
+        <Label Grid.Row="2" Grid.Column="0">Nachname:</Label>
         <TextBox VerticalAlignment="Center" Grid.Row="2" Padding="6" Grid.Column="1" Text="{Binding Path=Lastname}"/>
-        <Label Grid.Row="3" Grid.Column="0">Geburtsdatum</Label>
+        <Label Grid.Row="3" Grid.Column="0">Geburtsdatum:</Label>
         <DatePicker VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" SelectedDate="{Binding Path=BirthDate}"/>
 
         <UniformGrid Grid.Row="5" Grid.ColumnSpan="2" Columns="2">
-            <Button x:Name="btnSave" Margin="10" Padding="10">Sichern</Button>
-            <Button x:Name="btnCancel" Margin="10" Padding="10">Abbruch</Button>
+            <Button x:Name="btnSave" Margin="10" Padding="10">_Sichern</Button>
+            <Button x:Name="btnCancel" Margin="10" Padding="10">_Abbruch</Button>
         </UniformGrid>
     </Grid>
 </Window>
